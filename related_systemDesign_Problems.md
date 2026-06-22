@@ -61,7 +61,8 @@ Q. How much data storage would we need?
   total         -> ~1000 bytes 
 
   Approximately 1000 byte per url ,SO 
-  1000*total no. of urls for 10 years ( 315M) = 315 Terabytes of data 
+  1000*total no. of urls for 10 years ( 315B) = 315 Terabytes of data 
+
 ```
 
 
