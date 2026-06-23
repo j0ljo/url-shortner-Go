@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go URL SHortener</title>
+    <style> 
+        body {font-family: Arial, sans-serif; max-width: 600px; margin; 50px auto; text-aligh: center; }
+        input { padding: 10px; width: 70%; font-size: 16px; }
+        button { padding: 10px 20px; font-size; cursor: pointer; }
+        #result { margin-top: 20px; font-size: 18px; }
+        a {color: #0066cc; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
+
+</head>
+<body>
+    <h1> URL SHortener</h1>
+    <input type="text" id="urlInput" placeholder="Paste a long URL here..."> 
+    <button onclick="shortenUrl()">Shorten</button>
+    
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
